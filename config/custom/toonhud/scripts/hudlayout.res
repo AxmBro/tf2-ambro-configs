@@ -494,7 +494,7 @@
 
 		"MaxDeathNotices" "12" // 1 KF
 		"IconScale"		"0.35"
-		"LineHeight"	"8" // 3 KF
+		"LineHeight"	"10" // 3 KF
 		"LineSpacing"	"0" // 4 KF
 		"CornerRadius"	"5" // 2 KF
 		"RightJustify"	"1"	// If 1, draw notices from the right
@@ -1063,9 +1063,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-123"
-		"ypos"					"40"
+		"ypos"					"50"
 		"wide"					"246"
-		"tall"					"60"
+		"tall"					"100"
 	}
 
 
@@ -1224,7 +1224,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
-		"tall"					"50"
+		"tall"					"100"
 	}	
 	
 	"HudAchievementTracker"

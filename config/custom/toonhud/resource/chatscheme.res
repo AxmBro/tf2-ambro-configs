@@ -201,10 +201,12 @@ Scheme
 
 		"Default"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"12" [!$POSIX]
+				"tall"		"14" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
@@ -212,7 +214,8 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"
+				"tall"		"13" [!$POSIX]
+				"tall"		"16" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
@@ -220,7 +223,8 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"14" [!$POSIX]
+				"tall"		"16" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -229,19 +233,19 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"16" [!$POSIX]
+				"tall"		"18" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"20"
+				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -338,44 +342,53 @@ Scheme
 
 		"ChatFont"
 		{
+			"isproportional" "only"
 			"1"
 			{
-				"name"			"PROTOTYPE" // Chat font
-				"tall"			"24" // Chat fontsize
-				"weight"		"400" // Chat fontweight
-				"dropshadow"	"0" // Chat shadow
-				"antialias"		"1" // Chat antialias
+				"name"			"Verdana" // Chat font
+				"tall"			"12"	[!$POSIX] // Chat fontsize
+				"tall"			"15"	[$POSIX] // Chat fontsize
+				"weight"		"700" // Chat fontweight
+				"yres"			"480 599" // Chat yres
+				"dropshadow"	"1" // Chat shadow
+				"antialias"		"0" // Chat antialias
 			}
 			"2"
 			{
-				"name"			"PROTOTYPE" // Chat font
-				"tall"			"24" // Chat fontsize
-				"weight"		"400" // Chat fontweight
-				"dropshadow"	"0" // Chat shadow
-				"antialias"		"1" // Chat antialias
+				"name"			"Verdana" // Chat font
+				"tall"			"14"	[!$POSIX] // Chat fontsize
+				"tall"			"17"	[$POSIX] // Chat fontsize
+				"weight"		"700" // Chat fontweight
+				"yres"			"600 767" // Chat yres
+				"dropshadow"	"1" // Chat shadow
+				"antialias"		"0" // Chat antialias
 			}
 			"3"
 			{
-				"name"			"PROTOTYPE" // Chat font
-				"tall"			"24" // Chat fontsize
-				"weight"		"400" // Chat fontweight
-				"dropshadow"	"0" // Chat shadow
-				"antialias"		"1" // Chat antialias
+				"name"			"Verdana" // Chat font
+				"tall"			"15"	[!$POSIX] // Chat fontsize
+				"tall"			"18"	[$POSIX] // Chat fontsize
+				"weight"		"700" // Chat fontweight
+				"yres"			"768 1023" // Chat yres
+				"dropshadow"	"1" // Chat shadow
+				"antialias"		"0" // Chat antialias
 			}
 			"4"
 			{
-				"name"			"PROTOTYPE" // Chat font
-				"tall"			"24" // Chat fontsize
-				"weight"		"400" // Chat fontweight
-				"dropshadow"	"0" // Chat shadow
-				"antialias"		"1" // Chat antialias
+				"name"			"Verdana" // Chat font
+				"tall"			"17"	[!$POSIX] // Chat fontsize
+				"tall"			"20"	[$POSIX] // Chat fontsize
+				"weight"		"700" // Chat fontweight
+				"yres"			"1024 1199" // Chat yres
+				"dropshadow"	"1" // Chat shadow
+				"antialias"		"0" // Chat antialias
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
-				"name"			"PROTOTYPE" // Chat font
-				"tall"			"24" // Chat fontsize
-				"weight"		"400" // Chat fontweight
-				"dropshadow"	"0" // Chat shadow
+				"name"			"Verdana" // Chat font
+				"tall"			"8" // Chat fontsize
+				"weight"		"300" // Chat fontweight
+				"dropshadow"	"1" // Chat shadow
 				"antialias"		"1" // Chat antialias
 			}
 		}
@@ -781,12 +794,14 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"		
+		"2"		"resource/HL2EP2.ttf"	
+		"19" 	"resource/linux_fonts/DejaVuSans.ttf"
+		"20" 	"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"21" 	"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"22" 	"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"23" 	"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"24" 	"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"25" 	"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"26" 	"resource/linux_fonts/FiraSans-Regular.ttf"		
 	}
 }
-
-
-
-
-
-
