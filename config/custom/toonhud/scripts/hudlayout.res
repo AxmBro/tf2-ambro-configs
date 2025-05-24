@@ -494,8 +494,8 @@
 
 		"MaxDeathNotices" "12" // 1 KF
 		"IconScale"		"0.35"
-		"LineHeight"	"10" // 3 KF
-		"LineSpacing"	"0" // 4 KF
+		"LineHeight"	"12" // 3 KF
+		"LineSpacing"	"1" // 4 KF
 		"CornerRadius"	"5" // 2 KF
 		"RightJustify"	"1"	// If 1, draw notices from the right
 		
@@ -1512,7 +1512,6 @@
 		"alpha"					"100"
 	}
 }
-
 
 
 

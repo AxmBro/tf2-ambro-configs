@@ -11,7 +11,7 @@ Scheme
 		"G_White"				"255 255 255 255"
 		"G_Black"				"0 0 0 255"
 		"G_Red"					"230 0 0 255"
-		"G_Shadow"				"0 0 0 179" // Shadow color
+		"G_Shadow"				"0 0 0 191" // Shadow color
 		"G_LightShadow"			"0 0 0 110"
 		"G_Heal"				"150 214 36 255" // Heal color
 		"G_Hit"					"225 51 26 255" // Hit color
@@ -42,10 +42,10 @@ Scheme
 		"G_KillstreakIcon"		"255 255 255 255" // Killstreak icon color
 		"G_StickyColor"					"35 150 228 255" // Stickybomb color
 		"G_StickyIconColor"				"255 255 255 255" // Stickybomb icon color
-		"G_CustomTargetID" 				"0 0 0 179" // Custom target id bg color
+		"G_CustomTargetID" 				"0 0 0 166" // Custom target id bg color
 		"G_CustomBuildingStatusBg" 		"0 0 0 0" // Custom building status bg color
 		"G_TargetHealthValue" 			"255 255 255 255" // Target ID health value color
-		"G_TargetHealthValueShadow" 	"0 0 0 219" // Target ID health value shadow color
+		"G_TargetHealthValueShadow" 	"0 0 0 191" // Target ID health value shadow color
 		"G_Killfeed_Base"			"0 0 0 128" // Killfeed Base color
 		"G_Killfeed_Local"			"255 255 255 255" // Killfeed Local color
 		"G_CenteredMetalBg"			"60 60 60 0" // Centered metal background color
@@ -94,7 +94,7 @@ Scheme
 		"G_MiniButtonBg"			"50 50 50 255" // Mini button bg color
 		"G_MiniButtonHoverBg"		"10 10 10 255" // Mini button hover bg color
 		"G_GhostWhite"				"255 255 255 210"
-		"G_ItemMeterBg"				"0 0 0 179" // Item meter bg
+		"G_ItemMeterBg"				"0 0 0 166" // Item meter bg
 		"G_ItemMeterBorder"			"0 0 0 255" // Item meter border color
 		"G_MenuShader"				"0 0 0 99" // Menu shader color
 		"G_XPBar"					"255 255 255 255" // XP Bar color
