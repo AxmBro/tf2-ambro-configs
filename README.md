@@ -105,12 +105,12 @@ Generally there is a lot of stuff from the interenet, however in most cases it's
 # Extra sources
 List of useful sources that I used. Might be useful for you as well.
 
-# Random note
-Whenever your game has random high pitch and you hear that audio is cracked, then try to set tf_dingaling_pitchmindmg and tf_dingaling_pitchmaxdmg to 100. These commands helped me!
-
 - https://github.com/Lyrositor/TF2-Scripts
 - Launch options explanation https://docs.comfig.app/latest/customization/launch_options
 - Most of the scripts I used probably are from here https://gamebanana.com/games/297
 - New Knife Inspect Animation (I just left it here to remember that I need to test it and possibly use someday lol) https://gamebanana.com/mods/591988
 
 - Great video about tf2 HUD visual clarity https://youtu.be/orWzoxnjXM4
+
+# Random note
+Whenever your game has random high pitch and you hear that audio is cracked, then try to set tf_dingaling_pitchmindmg and tf_dingaling_pitchmaxdmg to 100. These commands helped me!
